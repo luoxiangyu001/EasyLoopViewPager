@@ -7,6 +7,7 @@ A Easy Loop ViewPager and Adapter for Android
 
 #使用
 1.继承EasyViewPager
+
     public class MyViewPager extends EasyViewPager{
 
         public MyViewPager(Context context) {
@@ -15,6 +16,7 @@ A Easy Loop ViewPager and Adapter for Android
     }
     
 2.继承EasyViewPagerAdapter
+
     public class MyAdapter<T> extends EasyViewPagerAdapter{
 
       public MyAdapter(EasyViewPager viewPager, int layoutId) {
@@ -27,6 +29,7 @@ A Easy Loop ViewPager and Adapter for Android
     }
     
 3.设置Adapter
+
     public class MyActivity extends AppCompatActivity {
 
         protected void onCreate(Bundle savedInstanceState) {
