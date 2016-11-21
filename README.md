@@ -20,7 +20,7 @@ A Easy Loop ViewPager Adapter for Android
       
     }
     
-3.设置ViewPager
+2.设置ViewPager
 
     public class MyActivity extends AppCompatActivity {
 
